@@ -1,4 +1,4 @@
-module FIFO #(parameter WIDTH = 6, DEPTH = 32)(
+module FIFO #(parameter WIDTH = 1, DEPTH = 32)(
     input [WIDTH-1:0] data_in,
     input read_en,
     input write_en,
